@@ -1,0 +1,21 @@
+ai-recruiter-agent/
+│
+├── data/
+│   ├── resumes/
+│   │   ├── resume1.pdf
+│   │   ├── resume2.pdf
+│   └── job_description.txt
+│
+├── agent/
+│   ├── resume_parser.py
+│   ├── jd_analyzer.py
+│   ├── scorer.py
+│   └── recruiter_agent.py
+│
+├── memory/
+│   └── vector_store.py
+│
+├── main.py
+├── requirements.txt
+├── README.md
+└── .env
